@@ -1,0 +1,29 @@
+{
+  "name": "taller-api",
+  "version": "1.0.0",
+  "description": "API para gestión de taller automotriz",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "api",
+    "express",
+    "prisma",
+    "taller"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^6.0.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "pdfkit": "^0.15.1",
+    "prisma": "^6.0.0",
+    "twilio": "^5.1.0"
+  }
+}
